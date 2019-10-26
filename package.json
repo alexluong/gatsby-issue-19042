@@ -1,0 +1,15 @@
+{
+  "name": "howtogatsby",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "develop": "yarn workspace site develop",
+    "start": "yarn workspace site start",
+    "build": "yarn workspace site build",
+    "serve": "yarn workspace site serve"
+  }
+}
